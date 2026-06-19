@@ -11,8 +11,30 @@ h1 , h-2{
     color:orange
 }
 
+body {
+margin:0;
+}
 .para {
     border: 2px solid black;
     padding: 20px;
     text-align: center;
+}
+
+.navbar{
+    border: 3px solid black;
+    padding: 20px;
+    background-color: darkred;
+    text-align: center;
+    
+}
+
+.navbar a {
+    color: beige;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    background-color:beige;
+    color: darkred;
 }
