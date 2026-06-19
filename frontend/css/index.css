@@ -1,4 +1,18 @@
-h1 {
+h1 , h-2{
     color : red;
-    
+
+}
+
+#hn2{
+    color:blue;
+}
+
+#hn3,#hn4,#hn5{
+    color:orange
+}
+
+.para {
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
 }
