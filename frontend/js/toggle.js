@@ -2,12 +2,12 @@ var users = [
   {
     name: "JOHN LEAN",
     gender: "male",
-    image: "/images/john.png",
+    image: "../images/john.png",
   },
   {
     name: "JANE DOE",
     gender: "female",
-    image: "/images/jane.png",
+    image: "../images/jane.png",
   },
 ];
 
