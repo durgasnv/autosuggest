@@ -1,5 +1,6 @@
 .main-content {
     text-align: center;
+    margin-top:0;
 }
 
 .gear {
@@ -45,9 +46,38 @@
     padding-right: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    width: 320px;
 }
 
 #lens{
     position: relative;
     left: 30px;
+}
+
+#search-suggestions {
+    width: 320px;
+    margin: 12px auto 0;
+    text-align: left;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+}
+
+#search-suggestions div {
+    padding: 10px 14px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+#search-suggestions div:last-child {
+    border-bottom: none;
+}
+
+#search-suggestions div:hover {
+    background-color: #f7f7f7;
+}
+
+.suggestion-item {
+    color: #333333;
+    font-size: 14px;
 }
