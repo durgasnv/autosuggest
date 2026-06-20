@@ -38,3 +38,21 @@ margin:0;
     background-color:beige;
     color: darkred;
 }
+
+.card{
+    border:2px solid black;
+    width:300px;
+    border-style: solid;
+    text-align: center;
+    margin: 20px auto;
+    
+
+}
+
+.card img{
+    width: 100%;
+}
+
+.card button{
+    margin:20px;
+}
